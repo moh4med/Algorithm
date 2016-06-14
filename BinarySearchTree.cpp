@@ -1,5 +1,5 @@
 #include<iostream>
-#include<BinarySearchTree.h>
+#include"Headers/BinarySearchTree.h"
 using namespace std;
 void BST::create(int val){
 root=create_node(val);

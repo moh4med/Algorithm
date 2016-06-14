@@ -1,6 +1,6 @@
 #include<iostream>
-#include<LinkedList.h>
-#include<Stack.h>
+#include"Headers/LinkedList.h"
+#include"Headers/Stack.h"
 using namespace std;
 void Stack_A::create(int n)
 {

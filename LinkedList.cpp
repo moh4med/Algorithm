@@ -1,5 +1,5 @@
 #include<iostream>
-#include<LinkedList.h>
+#include"Headers/LinkedList.h"
 using namespace std;
 
 void LinkedList::traverse()

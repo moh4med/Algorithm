@@ -1,7 +1,7 @@
 #ifndef QUEUE_H_INCLUDED
 #define QUEUE_H_INCLUDED
 #pragma once
-#include<LinkedList.h>
+#include"LinkedList.h"
 class Queue_A
 {
 private:

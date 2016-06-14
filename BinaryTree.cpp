@@ -1,6 +1,6 @@
 #include<iostream>
-#include<BinaryTree.h>
-#include<Queue.h>
+#include"Headers/BinaryTree.h"
+#include"Headers/Queue.h"
 using namespace std;
 TNode* create_node(int val)
 {

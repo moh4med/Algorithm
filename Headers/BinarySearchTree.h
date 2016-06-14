@@ -1,7 +1,7 @@
 #ifndef BINARYSEARCHTREE_H_INCLUDED
 #define BINARYSEARCHTREE_H_INCLUDED
 #pragma once
-#include<BinaryTree.h>
+#include"BinaryTree.h"
 class BST{
 private:
    TNode* root=NULL;

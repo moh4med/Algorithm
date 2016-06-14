@@ -1,6 +1,6 @@
 #include<iostream>
-#include<LinkedList.h>
-#include<Queue.h>
+#include"Headers/LinkedList.h"
+#include"Headers/Queue.h"
 using namespace std;
 void Queue_A::create(int n)
 {
