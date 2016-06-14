@@ -9,7 +9,7 @@
 #define SELECTION_SORT_H_
 #pragma once
 void selection_sort(int a[],int n);
-
+unsigned long long selectionsteps();
 
 
 #endif /* SELECTION_SORT_H_ */

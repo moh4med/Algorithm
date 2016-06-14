@@ -9,7 +9,7 @@
 #define INSERTION_SORT_H_
 #pragma once
 void insertion_sort(int a[],int n);
-
+unsigned long long insertionsteps();
 
 
 #endif /* INSERTION_SORT_H_ */

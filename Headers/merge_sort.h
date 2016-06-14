@@ -11,6 +11,6 @@
 void merge(int a[],int p,int m,int q);
 void merge_sort(int a[],int p,int q);
 void merge_sort(int a[],int n);
-
+unsigned long long mergesteps();
 
 #endif /* MERGE_SORT_H_ */
