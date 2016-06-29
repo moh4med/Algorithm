@@ -24,6 +24,10 @@ int partition(int a[], int p, int r) {
 	swap(a[r],a[i]);
 	return i;
 }
+void  Quick_sort(int a[], int n){
+	quickstep=0;
+	Quick_sort(a, 0, n-1);
+}
 void Quick_sort(int a[], int p, int r) {
 	quickstep++;
 	if (p < r) {

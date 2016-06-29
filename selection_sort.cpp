@@ -4,6 +4,7 @@ unsigned long long selectionsteps(){
 	return selestep;
 }
 void selection_sort(int a[],int n){
+	selestep=0;
 	for(int i=0;i<n-1;i++){
 		int mi=i;
 		selestep+=4;

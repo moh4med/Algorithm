@@ -11,6 +11,7 @@ unsigned long long mergesteps(){
 	return mergestep;
 }
 void merge_sort(int a[],int n){
+	mergestep=0;
 	merge_sort(a,0,n-1);
 }
 void merge(int a[], int p, int m, int q) {

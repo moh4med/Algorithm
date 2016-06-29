@@ -4,6 +4,7 @@ unsigned long long buublesteps() {
 	return bubstep;
 }
 void bubble_sort(int a[], int n) {
+	bubstep=0;
 	bool swaped=true;
 	int i=0;
 	while(swaped){
