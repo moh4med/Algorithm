@@ -10,7 +10,7 @@ struct item {
   int val;
   int index;
 };
-bool cmp(item a, item b) {
+bool cmp1(item a, item b) {
   if (a.val == b.val) {
     if (a.index == -1) {
       return 1;
@@ -47,7 +47,7 @@ vector<int> fast_count_segments(vector<int> starts, vector<int> ends,
     x.index = i;
     items.push_back(x);
   }
-  sort(items.begin(), items.end(), cmp);
+  sort(items.begin(), items.end(), cmp1);
   /*cout<<"items:\n";
    for (int i = 0; i < items.size(); ++i) {
    cout << items[i].val << " "<<items[i].index<<endl;
